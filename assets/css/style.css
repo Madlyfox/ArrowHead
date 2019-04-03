@@ -1,0 +1,31 @@
+body{
+	background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/Paris-HD-Wallpaper-Free.jpg"); 
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.resh{
+	margin-top: 100px;
+	background-color: white;
+	
+}
+.cont{
+	padding: 1em;
+}
+h2{
+	font-weight: bold;
+}
+.mrgn{
+	padding
+}
+.center{
+	
+}
+.center{
+	text-align: center;
+}
