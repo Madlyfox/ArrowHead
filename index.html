@@ -13,133 +13,133 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg ">
-        <a class="navbar-brand" href="#" >
-            <img src="assets/bnb.png" width="60" height="45" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse form-inline" id="navbarNav1"></div>
-        <form class="form-inline">
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav white">
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: white">Aide</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="false" data-toggle="modal" data-target="#InscriptionModal" style="color: white">Inscription</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="false" data-toggle="modal" data-target="#ConnexionModal" style="color: white">Connexion</a>
-                    </li>
-                </ul>
+    
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand " href="#">Arrow</a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon " style="color: white"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0 offset-md-9">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: white">Aide</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="false" data-toggle="modal" data-target="#InscriptionModal" style="color: white">Inscription</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="false" data-toggle="modal" data-target="#ConnexionModal" style="color: white">Connexion</a>
+                        </li>
+                        <li><a>
+                                <button type="button" class="btn btn-outline-danger" href="Explore.hmtl">Explorer</button>
+                            </a>
+                        </li>
+                    </ul>
+                </form>
             </div>
-        </form>
-    </nav>
-    <!-- Inscription modal -->
-    <div class="modal fade center" id="InscriptionModal" tabindex="-1" role="dialog" aria-labelledby="InscriptionModal" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="container col-md-12">
-                    <button type="button" class="btn btn-primary btn-lg btn-block">Inscription via Facebook</button>
-                    <button type="button" class="btn btn-outline-dark btn-lg btn-block">Inscription via Google</button>
-                    <hr>
-                    <button type="button" class="btn btn-danger btn-lg btn-block">Insciption par Mail</button>
-                    <div>
-                        <small>Vous avez déja un compte airbnb ? <a href="#">Connexion</a></small>
+        </nav>
+        <!-- Inscription modal -->
+        <div class="modal fade center" id="InscriptionModal" tabindex="-1" role="dialog" aria-labelledby="InscriptionModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
-                    <br>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Connextion modal -->
-    <div class="modal fade center" id="ConnexionModal" tabindex="-1" role="dialog" aria-labelledby="ConnexionModal" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="container col-md-12">
-                    <button type="button" class="btn btn-primary btn-lg btn-block">Connexion avec Facebook</button>
-                    <button type="button" class="btn btn-outline-dark btn-lg btn-block">Connexion avec Google</button>
-                    <hr>
-                    <div class="container col-md-12 ">
-                        <form>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Adresse Email">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
-                            </div>
-                            <div class="container row">
-                                <div class="form-group form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
-                                </div>
-                                <div class=" offset-md-2">
-                                    <small><a href="#">Afficher le mot de passe</a></small>
-                                </div>
-                            </div>
-                        </form>
-                        <div class="center">
-                            <button type="button" class="btn btn-danger btn-lg btn-block">Connexion</button>
-                            <small class="bold"><a href="#">Mot de passe oublié ?</a></small>
+                    <div class="container col-md-12">
+                        <button type="button" class="btn btn-primary btn-lg btn-block">Inscription via Facebook</button>
+                        <button type="button" class="btn btn-outline-dark btn-lg btn-block">Inscription via Google</button>
+                        <hr>
+                        <button type="button" class="btn btn-danger btn-lg btn-block">Insciption par Mail</button>
+                        <div>
+                            <small>Vous avez déja un compte airbnb ? <a href="#">Connexion</a></small>
                         </div>
                         <br>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container col-md-12 col-12 col-sm-12">
-        <div class="container offset-md-2 col-md-3 resh ">
-            <div class="cont">
-                <form>
-                    <div class="form-group">
-                        <h2>Réservez des logements et des expériences hors du commun.</h2>
-                        <label for="exampleInputEmail1">Où</label>
-                        <input type="email" class="form-control" id="exampleInput1" placeholder="Partout">
+        <!-- Connextion modal -->
+        <div class="modal fade center" id="ConnexionModal" tabindex="-1" role="dialog" aria-labelledby="ConnexionModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label for="inlineFormInputName2">Arrivée</label>
-                            <input type="date" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="inlineFormInputGroupUsername2">Départ</label>
-                            <div class="input-group mb-2 mr-sm-2">
-                                <div class="input-group-prepend">
+                    <div class="container col-md-12">
+                        <button type="button" class="btn btn-primary btn-lg btn-block">Connexion avec Facebook</button>
+                        <button type="button" class="btn btn-outline-dark btn-lg btn-block">Connexion avec Google</button>
+                        <hr>
+                        <div class="container col-md-12 ">
+                            <form>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Adresse Email">
                                 </div>
-                                <input type="date" class="form-control" id="inlineFormInputGroupUsername2">
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
+                                </div>
+                                <div class="container row">
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
+                                    </div>
+                                    <div class=" offset-md-2">
+                                        <small><a href="#">Afficher le mot de passe</a></small>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="center">
+                                <button type="button" class="btn btn-danger btn-lg btn-block">Connexion</button>
+                                <small class="bold"><a href="#">Mot de passe oublié ?</a></small>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulaire -->
+        <div class="container col-md-12 col-12 col-sm-12">
+            <div class="container offset-md-2 col-md-4 resh ">
+                <div class="cont">
+                    <form>
+                        <div class="form-group">
+                            <h2>Réservez des logements et des expériences hors du commun.</h2>
+                            <label for="exampleInputEmail1">Où</label>
+                            <input type="email" class="form-control" id="exampleInput1" placeholder="Partout">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="inlineFormInputName2">Arrivée</label>
+                                <input type="date" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inlineFormInputGroupUsername2">Départ</label>
+                                <div class="input-group mb-2 mr-sm-2">
+                                    <div class="input-group-prepend">
+                                    </div>
+                                    <input type="date" class="form-control" id="inlineFormInputGroupUsername2">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </form>
-            
-            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Voyageurs</label>
-            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                <option selected>1 Voyageur</option>
-                <option value="1">2 Voyageurs</option>
-                <option value="2">3 Voyageurs</option>
-                <option value="3">4 Voyageurs</option>
-            </select>
-            <button type="submit" class="btn btn-primary offset-md-8 btn-danger mrgn">Rechercher</button>
+                    </form>
+                    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Voyageurs</label>
+                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                        <option selected>1 Voyageur</option>
+                        <option value="1">2 Voyageurs</option>
+                        <option value="2">3 Voyageurs</option>
+                        <option value="3">4 Voyageurs</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary btn-danger mrgn">Rechercher</button>
+                </div>
+            </div>
         </div>
-        </div>
-    </div>
-    <div class=" offset-md-11 col-md-3 bg-danger nxt">
-      <p style="color: white; padding: 5px;">Explorer</p>
-    </div>
+        
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
